@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let dinner = parseFloat(prompt('Digite o valor do jantar: (R$)')) || alert("Digite um valor válido!")
+        if (dinner != undefined){
+            let waiterFee = dinner * 0.1
+            let dinnerTotal = dinner + waiterFee
+            console.log(`The dinner bill is ${dinner}, the waiter fee is ${waiterFee} and the total dinner bill is ${dinnerTotal} `)
+        }
+
+    </script>
+</body>
+</html>
